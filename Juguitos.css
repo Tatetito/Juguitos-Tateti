@@ -7,7 +7,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #FFFDF5; /* Fondo general en tono crema suave */
+  background-color: #f0f8ff; /* Celeste pastel casi blanco */
   color: #1a1a1a; /* Texto principal en negro suave */
   box-sizing: border-box;
   overflow-x: hidden;
@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f4c2e; /* Verde oscuro elegante */
+  background-color: #0f2537; /* Azul oscuro elegante */
   padding: 15px 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
 }
@@ -56,10 +56,10 @@ nav a {
 }
 
 nav a:hover {
-  color: #f97316; /* Naranja en hover en la navegación */
+  color: #f87171; /* Rojo suave en hover en la navegación */
 }
 
-/* Animación de subrayado naranja */
+/* Animación de subrayado rojo */
 nav a::after {
   content: '';
   position: absolute;
@@ -67,7 +67,7 @@ nav a::after {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #f97316;
+  background-color: #dc2626; /* Rojo elegante */
   transition: width 0.3s ease;
 }
 
@@ -81,7 +81,7 @@ nav a:hover::after {
   align-items: center;
   justify-content: space-between;
   padding: 80px 10%;
-  background-color: #FFFDF5; /* Fondo crema */
+  background-color: #f0f8ff; /* Celeste pastel casi blanco */
   color: #111111;
   min-height: 75vh;
   gap: 50px;
@@ -98,7 +98,7 @@ nav a:hover::after {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 24px;
-  color: #0f4c2e; /* Título en verde oscuro */
+  color: #0f2537; /* Título en azul oscuro elegante */
   letter-spacing: -0.5px;
 }
 
@@ -111,12 +111,12 @@ nav a:hover::after {
   font-weight: 300;
 }
 
-/* Botón del Hero - Verde Ecológico */
+/* Botón del Hero - Azul */
 .hero-btn {
   display: inline-block;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   padding: 16px 36px;
-  background-color: #10b981;
+  background-color: #1a365d; /* Azul elegante */
   color: #ffffff;
   text-decoration: none;
   font-size: 0.95rem;
@@ -124,16 +124,16 @@ nav a:hover::after {
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 4px;
-  border: 2px solid #10b981;
+  border: 2px solid #1a365d;
   transition: all 0.4s ease;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.25);
 }
 
 .hero-btn:hover {
-  background-color: #e65100; /* Pasa a Naranja en Hover */
-  border-color: #e65100;
+  background-color: #dc2626; /* Pasa a Rojo en Hover */
+  border-color: #dc2626;
   color: #ffffff;
-  box-shadow: 0 6px 18px rgba(230, 81, 0, 0.3);
+  box-shadow: 0 6px 18px rgba(220, 38, 38, 0.3);
   transform: translateY(-2px);
 }
 
@@ -153,7 +153,7 @@ nav a:hover::after {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e8e2ce;
+  border: 1px solid #cce3f5;
   transition: transform 0.5s ease;
 }
 
@@ -181,7 +181,7 @@ nav a:hover::after {
 /* SECCIÓN DE TARJETAS (CARDS) */
 .cards-section {
   padding: 80px 5%;
-  background-color: #FFFDF5; /* Fondo crema */
+  background-color: #f0f8ff; /* Celeste pastel casi blanco */
 }
 
 .cards-container {
@@ -192,30 +192,30 @@ nav a:hover::after {
   margin: 0 auto;
 }
 
-/* Estilo de las Cards sobre fondo crema */
+/* Estilo de las Cards sobre celeste pastel */
 .card {
   border-radius: 12px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #FBF8EE; /* Crema más suave para la tarjeta */
+  background-color: #e6f2ff; /* Celeste pastel suave para la tarjeta */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-  border: 1px solid #ebd8be;
+  border: 1px solid #cce3f5;
   transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
 }
 
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  border-color: #0f4c2e;
+  border-color: #0f2537;
 }
 
 .card-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-bottom: 1px solid #ebd8be;
+  border-bottom: 1px solid #cce3f5;
 }
 
 .card-content {
@@ -226,7 +226,7 @@ nav a:hover::after {
 }
 
 .card-title {
-  color: #0f4c2e; /* Título en verde oscuro */
+  color: #0f2537; /* Título en azul oscuro */
   font-size: 1.35rem;
   font-weight: 700;
   margin: 0 0 15px 0;
@@ -259,54 +259,54 @@ nav a:hover::after {
 
 /* BOTONES INTERCALADOS DE LAS TARJETAS */
 
-/* Card 1: Verde Ecológico */
+/* Card 1: Azul Elegante */
 .card:nth-child(1) .card-btn {
-  background-color: #10b981;
-  border: 1px solid #10b981;
+  background-color: #1a365d;
+  border: 1px solid #1a365d;
 }
 .card:nth-child(1) .card-btn:hover {
-  background-color: #059669;
-  border-color: #059669;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  background-color: #0f2537;
+  border-color: #0f2537;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
 }
 
-/* Card 2: Naranja */
+/* Card 2: Rojo Elegante */
 .card:nth-child(2) .card-btn {
-  background-color: #e65100;
-  border: 1px solid #e65100;
+  background-color: #dc2626;
+  border: 1px solid #dc2626;
 }
 .card:nth-child(2) .card-btn:hover {
-  background-color: #bf360c;
-  border-color: #bf360c;
-  box-shadow: 0 4px 12px rgba(230, 81, 0, 0.3);
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
 }
 
-/* Card 3: Verde Ecológico */
+/* Card 3: Azul Elegante */
 .card:nth-child(3) .card-btn {
-  background-color: #10b981;
-  border: 1px solid #10b981;
+  background-color: #1a365d;
+  border: 1px solid #1a365d;
 }
 .card:nth-child(3) .card-btn:hover {
-  background-color: #059669;
-  border-color: #059669;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  background-color: #0f2537;
+  border-color: #0f2537;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
 }
 
-/* Card 4: Naranja */
+/* Card 4: Rojo Elegante */
 .card:nth-child(4) .card-btn {
-  background-color: #e65100;
-  border: 1px solid #e65100;
+  background-color: #dc2626;
+  border: 1px solid #dc2626;
 }
 .card:nth-child(4) .card-btn:hover {
-  background-color: #bf360c;
-  border-color: #bf360c;
-  box-shadow: 0 4px 12px rgba(230, 81, 0, 0.3);
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
 }
 
 /* SECCIÓN DE LA GALERÍA / CARRUSEL */
 .carousel-section {
   width: 100%;
-  background-color: #FFFDF5; /* Fondo crema */
+  background-color: #f0f8ff; /* Celeste pastel casi blanco */
   padding: auto;
   box-sizing: border-box;
   align-items: center;
@@ -320,7 +320,7 @@ nav a:hover::after {
 }
 
 .carousel-header .subtitle {
-  color: #e65100; /* Naranja para subtítulo */
+  color: #dc2626; /* Rojo elegante para subtítulo */
   font-size: 0.85rem;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -333,7 +333,7 @@ nav a:hover::after {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 2.2rem;
   font-weight: 700;
-  color: #0f4c2e; /* Título en verde oscuro */
+  color: #0f2537; /* Título en azul oscuro */
   margin: 0;
   align-items: center;
 }
@@ -341,7 +341,7 @@ nav a:hover::after {
 .gold-divider {
   width: 50px;
   height: 3px;
-  background-color: #10b981; /* Barra verde */
+  background-color: #dc2626; /* Barra roja */
   margin: 15px auto 0;
   border-radius: 2px;
 }
@@ -372,17 +372,17 @@ nav a:hover::after {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  border: 2px solid #ebd8be;
+  border: 2px solid #cce3f5;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
-  background-color: #FBF8EE;
+  background-color: #e6f2ff;
   transition: border-color 0.4s ease, box-shadow 0.4s ease;
   align-items: center;
 }
 
 .carousel-slide:hover {
-  border-color: #e65100;
-  box-shadow: 0 10px 25px rgba(230, 81, 0, 0.2);
+  border-color: #dc2626;
+  box-shadow: 0 10px 25px rgba(220, 38, 38, 0.2);
 }
 
 .carousel-slide img {
@@ -403,7 +403,7 @@ nav a:hover::after {
   left: 0;
   right: 0;
   padding: 15px;
-  background: linear-gradient(to top, rgba(15, 76, 46, 0.95), transparent);
+  background: linear-gradient(to top, rgba(15, 37, 55, 0.95), transparent);
   transform: translateY(100%);
   opacity: 0;
   transition: all 0.4s ease;
@@ -423,7 +423,7 @@ nav a:hover::after {
 
 .slide-caption p {
   font-size: 0.8rem;
-  color: #ebd8be;
+  color: #cce3f5;
   font-weight: 300;
   margin: 0;
 }
@@ -444,7 +444,7 @@ nav a:hover::after {
 /* SECCIÓN INFORMATIVA DE ENTIDADES AMBIENTALES */
 .produce-info-section {
   width: 100%;
-  background-color: #FFFDF5; /* Fondo crema */
+  background-color: #f0f8ff; /* Celeste pastel casi blanco */
   padding: 80px 0;
   box-sizing: border-box;
   color: #1a1a1a;
@@ -454,10 +454,10 @@ nav a:hover::after {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-  background-color: #FBF8EE; /* Caja crema suave */
+  background-color: #e6f2ff; /* Caja celeste suave */
   padding: 40px;
   border-radius: 12px;
-  border: 1px solid #ebd8be;
+  border: 1px solid #cce3f5;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
 }
 
@@ -472,10 +472,10 @@ nav a:hover::after {
 .produce-container h2 {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 1.8rem;
-  color: #0f4c2e; /* Título verde oscuro */
+  color: #0f2537; /* Título azul oscuro */
   margin-bottom: 25px;
   font-weight: 700;
-  border-bottom: 3px solid #e65100; /* Subrayado naranja */
+  border-bottom: 3px solid #dc2626; /* Subrayado rojo */
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -494,12 +494,12 @@ nav a:hover::after {
 }
 
 .entities-list li::marker {
-  color: #e65100; /* Viñetas numeradas en naranja */
+  color: #dc2626; /* Viñetas numeradas en rojo */
   font-weight: bold;
 }
 
 .entities-list strong {
-  color: #0f4c2e; /* Nombres de entidades en verde oscuro */
+  color: #0f2537; /* Nombres de entidades en azul oscuro */
   font-weight: 700;
 }
 
@@ -507,10 +507,10 @@ nav a:hover::after {
   font-size: 1.05rem;
   line-height: 1.6;
   text-align: justify;
-  color: #0f4c2e;
-  background-color: #f3ede0; /* Cuadro destacado crema medio */
+  color: #0f2537;
+  background-color: #dbeafe; /* Cuadro destacado celeste medio */
   padding: 20px 25px;
-  border-left: 5px solid #10b981; /* Borde en verde ecológico */
+  border-left: 5px solid #1a365d; /* Borde en azul elegante */
   border-radius: 0 8px 8px 0;
   margin: 0;
   font-weight: 500;
@@ -536,8 +536,8 @@ nav a:hover::after {
 /* FOOTER (PIE DE PÁGINA) */
 footer {
   width: 100%;
-  background-color: #0f4c2e; /* Fondo en verde oscuro */
-  border-top: 1px solid #0a3822;
+  background-color: #0f2537; /* Fondo en azul oscuro */
+  border-top: 1px solid #081723;
   padding: 40px 20px;
   text-align: center;
   box-sizing: border-box;
@@ -553,14 +553,14 @@ footer h3 {
 }
 
 footer h4 {
-  color: #10b981; /* Correo en verde ecológico */
+  color: #f87171; /* Correo en rojo suave / acento */
   font-size: 0.95rem;
   font-weight: 400;
   margin: 0 0 12px 0;
 }
 
 footer h5 {
-  color: #ebd8be; /* Ubicación en tono crema suave */
+  color: #cce3f5; /* Ubicación en celeste pastel suave */
   font-size: 0.85rem;
   font-weight: 600;
   margin: 0;
@@ -587,7 +587,6 @@ footer h5 {
   }
 }
 
-
 /* CAPA OSCURA DE CONTRASTE */
 .overlay {
     position: absolute;
@@ -595,6 +594,6 @@ footer h5 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(0, 51, 102, 0.85), rgba(0, 86, 179, 0.75));
+    background: linear-gradient(135deg, rgba(15, 37, 55, 0.85), rgba(26, 54, 93, 0.75));
     z-index: 2;
 }
